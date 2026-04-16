@@ -44,3 +44,10 @@ print(list2[2:6:4])  # all elements from index 2 to index 5 with a step of 4
 print(list2[::5])  # all elements from the list with a step of 5
 print(list2[1:6:5])  # all elements from index 1 to index 5 with a step of 5
 print(list2[2:6:5])  # all elements from index 2 to index 5 with a step of 5
+
+
+a=[1,2]
+b=[3,4]
+b.extend(a)
+a.extend(b)
+print(a)
