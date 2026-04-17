@@ -15,7 +15,7 @@ print(a)
 
 #using pop method to remove elements of a list
 a=[1,2,3,4,5]   
-a.pop(0)  # removes the first element of the list and returns it
+a.pop(3)  # removes the first element of the list and returns it
 print(a)
 
 

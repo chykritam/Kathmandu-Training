@@ -47,61 +47,70 @@
 
 #using extend method to add elements of one list to another list
 
-a=[1,2]
-b=[3,4]
-b.extend(a)
-a.extend(b)
-print(a)
+# a=[1,2]
+# b=[3,4]
+# b.extend(a)
+# a.extend(b)
+# print(a)
+# print(b)
+
+
+# #using append method to add elements of one list to another list
+# a=[1,2]
+# b=[3,4]
+# b.append(a)
+# a.append(b)
+# print(a)
+# print(b)
+
+
+# #using insert method to add elements of one list to another list
+# a=[1,2]
+# b=[3,4]
+# b.insert(0,a)
+# a.insert(0,b)
+# print(a)
+# print(b)
+
+# #using + operator to add elements of one list to another list
+# a=[1,2]
+# b=[3,4]
+# a=a+b
+# print(a)
+# print(b)
+
+
+
+# #using * operator to add elements of one list to another list
+# a=[1,2]
+# b=[3,4]
+# a=a*2
+# print(a)
+# print(b)
+
+# #using list comprehension to add elements of one list to another list
+# a=[1,2]
+# b=[3,4]
+# a=[x for x in a]+[x for x in b]
+# print(a)
+# print(b)
+
+
+# #using map function to add elements of one list to another list
+# a=[1,2]
+# b=[3,4]
+# a=list(map(lambda x: x, a))+list(map(lambda x: x, b))
+# print(a)
+# print(b)
+
+
+
+#nested list
+a= [1,2,3,4,5,6,7,8,9,10]
+b=[a,11,12,13,14,15]
 print(b)
-
-
-#using append method to add elements of one list to another list
-a=[1,2]
-b=[3,4]
-b.append(a)
-a.append(b)
-print(a)
-print(b)
-
-
-#using insert method to add elements of one list to another list
-a=[1,2]
-b=[3,4]
-b.insert(0,a)
-a.insert(0,b)
-print(a)
-print(b)
-
-#using + operator to add elements of one list to another list
-a=[1,2]
-b=[3,4]
-a=a+b
-print(a)
-print(b)
-
-
-
-#using * operator to add elements of one list to another list
-a=[1,2]
-b=[3,4]
-a=a*2
-print(a)
-print(b)
-
-#using list comprehension to add elements of one list to another list
-a=[1,2]
-b=[3,4]
-a=[x for x in a]+[x for x in b]
-print(a)
-print(b)
-
-
-#using map function to add elements of one list to another list
-a=[1,2]
-b=[3,4]
-a=list(map(lambda x: x, a))+list(map(lambda x: x, b))
-print(a)
-print(b)
+c=[1,2,3,4,5,[6,7,8,9,10],11,12,13,14,15]
+print(c[-6])
 
 
 
